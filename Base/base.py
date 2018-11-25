@@ -23,6 +23,8 @@ class Base():
         el.send_keys(text)
 #===点击元素
 
+
+
     def base_click_element(self,loc):
         self.base_find_element(loc).click()
 
